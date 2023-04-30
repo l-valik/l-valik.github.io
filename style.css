@@ -1,0 +1,167 @@
+
+
+
+/*=========----  all -----===========*/
+
+a, h3, 
+{
+	color:#683603;
+}
+
+.display-5 
+{
+	font-size: 2rem; 
+	font-weight: 300; 
+	line-height: 1.2;
+}
+
+.logo
+{
+	font-size:20px; 
+	font-weight:bolder; 
+	background-color:#683603; 
+	color:Azure; 
+	border-radius: 5px;
+}
+
+.navbar
+{
+	background-color:#fff5e9;
+}
+
+.nav-tabs, .nav-item
+{
+	border-color:#683603;
+}	
+	
+	
+.footer
+{
+	background-color:#d6bc90;
+}
+
+/*=========----  index -----===========*/
+.blockquote
+{
+	font-size: 1.2rem; 
+	font-weight: 400; 
+	color: #123456;
+	/* visibility: hidden; */
+}
+
+.blockquote-footer::before {
+    content: "";
+}
+
+.interes
+{
+	margin-bottom: 3em;
+}
+
+
+.card-text 
+{
+	font-size: 1.25rem; 
+	padding:0;
+}
+
+
+@media (min-width:576px) and (max-width:768px)
+{
+	.card-text 
+	{
+		font-size: 1rem;
+	}
+}
+
+
+.card-body 
+{
+	background-color:#fff5e9;
+}
+
+
+li 
+{
+	margin-bottom:1rem;
+}
+
+
+@media (max-width:320px)
+{			
+	h3 
+	{
+		font-size: 1.25rem;
+	}
+}
+
+.card-img-top
+{
+	background-color: rgb(0, 0, 0);
+	opacity: 0.6;
+}
+
+
+/*=========----  about -----===========*/
+@media (max-width:576px)
+{
+	.pageHead 
+	{
+		font-size: .85rem;
+	}
+}
+
+.display-5 
+{
+	font-size: 2rem; 
+	font-weight: 300; 
+	line-height: 1.2;
+}
+
+.blockabout
+{
+	background-color:#fff5e9;
+}
+
+		
+.message
+{
+	/* color: red; */
+}		
+	
+/*=========----  portfolio -----===========*/	
+#myTabContent 
+{
+	background-color:#e7d4b2;
+}
+
+#home-tab, #profile-tab, #contact-tab 
+{
+	background-color:#fff5e9;
+}
+
+#home-tab.active, #profile-tab.active, #contact-tab.active 
+{
+	background-color:#e7d4b2;
+}
+
+
+
+/*=========----  contacts -----===========*/
+
+input.error, textarea.error
+{
+ border: 1px solid #ff0000;
+}
+
+label.error 
+{
+ color: #ff0000;
+ font-weight: normal;
+}
+
+.btn-bgcolor
+{
+	color: #eee;
+	background-color: #555;
+}
